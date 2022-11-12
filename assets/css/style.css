@@ -696,10 +696,10 @@ body {
     border: 0.5px solid #000D1A;
 }
 
-@media (min-width: 700px) {
+@media (max-width: 600px) {
     .ir-arriba:hover {
-        color: rgb(0, 0, 0);
-        background-color: #fff;
+        color: rgb(255, 255, 255);
+        background-color: var(--bluetoogle);
 
     }
 }
